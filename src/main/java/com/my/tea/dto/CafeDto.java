@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 public class CafeDto {
     private String name;
     private String address;
-    private String phone;
-    private String mapX;
-    private String mapY;
+    private double latitude;
+    private double longitude;
 }
